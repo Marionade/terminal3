@@ -1,0 +1,12 @@
+  536  grep PHP wilders.csv | wc -l > php_france_2019.csv
+  537  grep JavaScript | Toulouse | Biarritz wilders.csv > intermediaire.csv
+  538  grep -E '.*,.*,.*,(JavaScript|javascript),Toulouse|Biarritz,.*' wilders.csv > intermediaire.csv
+  539  grep JavaScript Toulouse Biarritz wilders.csv > intermediaires.csv
+  540  grep JavaScript && Toulouse && Biarritz wilders.csv > intermediaires.csv
+  541  grep Biarritz wilders.csv > biar.csv
+  542  grep Biarritz intermediaires.csv > biar.csv
+  543  grep Toulouse intermediaires.csv > toul.csv
+  544  cat toul.csv biar.csv > javascript_biarritz_toulouse.csv
+  545  history | tail -n 10 > history.txt~
+  546  history | tail -n 10 > history.txt
+  547  history | tail -n 12 > history.txt
